@@ -1,0 +1,52 @@
+Node is a JavaScript Runtime -- not a language or framwork 
+Built on JavaScript engine.
+Written in C++
+Allows us to run JavaScript code on the server
+
+Node is Fast, efficient and highly scalable
+Non-Blocking i/o model
+same language on both fron and backend
+
+Node is Asynchronous works on a single thread and uses non-blocking I/O calls
+supports tens of thousands of concurrent connections
+Optimizes throughput throughput and scalability in apps with many I/O operations
+Node is fast and efficient
+
+ --- Don't Use node for long running CPU intensive apps
+
+
+ nodes event loop is single threaded
+ supports concurrent events and callbacks
+    --EventEmitter class is used to bind events and listeners
+
+Best Projects for Node
+----- Rest API & Microservices
+----- Real Time Services (Chat, Live Updates, etc)
+----- CRUD Apps - Blogs, Shopping Carts, Social Networks
+----- Tools and Utils
+-- ANYTHING NOT CPU INTENSIVE
+
+NPM - Node Package Manager
+
+-- installs 3rd party packages (framework, libraries, tools, etc)
+-- packages get stored in the "node_modules" folder
+-- all dependencies are listed in the "package.json" file
+-- NPM scripts can be created to run certain tasks such as run a server
+
+    npm init                generates the package.json file
+    npm install express     installs 'express' package locally
+    npm install -g nodemon  installs 'nodemon' package globally
+
+Node Modules
+
+Node Core Modules (path, fs, http, etc)
+3rd party modules/packages installed via NPM
+or Custom Modules
+
+const path = require ('path');
+const myFile = require('./myFile');
+
+downloaded and installed node from https://nodejs.org/en
+
+
+
